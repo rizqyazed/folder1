@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document1</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="everything">
+        <p>hello world! slayy</p>
+        <p>ctrl + f to search for anything particular ʕ•ᴥ•ʔ</p>
+        <img style="height: 15rem; position:absolute; top: 25%; left: 55%;" src="./IMG_0132.WEBP"/>
+        <div id="nav">
+
+        </div>
+    </div>
+</body>
+<script>
+    async function createNav() {
+        var nav = document.getElementById('nav')
+        await fetch('../pages.json')
+            .then(res => res.json())
+            .then(data => {
+                data.forEach(dir => {
+                    console.log(dir)
+                    var link = document.createElement("a");
+                    link.innerHTML = `<span>${dir.title}</span>`;
+                    link.href = dir.href;
+                    nav.appendChild(link)
+                })
+            })
+    } 
+    createNav()
+</script>
+</html>

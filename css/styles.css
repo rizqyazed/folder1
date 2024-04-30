@@ -1,0 +1,16 @@
+.everything {
+    margin: 0 1rem;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#post-content img {
+    height: 25rem;
+}
+
+#nav a{
+    text-decoration: none;
+}
