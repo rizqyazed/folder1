@@ -19,7 +19,7 @@
 <script>
     async function createNav() {
         var nav = document.getElementById('nav')
-        await fetch('../pages.json')
+        fetch('../pages.json')
             .then(res => res.json())
             .then(data => {
                 data.forEach(dir => {
