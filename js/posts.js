@@ -4,7 +4,7 @@ var page = document.getElementById("post-content")
 
 // get each post from .md
 const getNotes = async () => {
-    const res = await fetch('../pages.json');
+    const res = await fetch('/pages.json');
     var notes = await res.json();
     posts = []
 
