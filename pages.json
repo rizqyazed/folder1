@@ -2,15 +2,15 @@
     {
       "date": "30-04-2024",
       "title": "Photoshop Actions",
-      "url": "../test/test.md",
-      "href": "../test/test.html",
+      "url": "/pages/test/test.md",
+      "href": "/pages/test/test.html",
       "id": "photoshop_actions"
     },
     {
         "date": "30-04-2024",
         "title": "Melissa's Notes",
-        "url": "../notes1/notes.md",
-        "href": "../notes1/notes1.html",
+        "url": "/pages/notes1/notes.md",
+        "href": "/pages/notes1/notes1.html",
         "id": "notes"
       }
   ]
