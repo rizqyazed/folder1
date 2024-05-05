@@ -12,5 +12,12 @@
         "url": "/pages/notes1/notes.md",
         "href": "/pages/notes1/notes1.html",
         "id": "notes"
+      },
+      {
+        "date": "5-05-2024",
+        "title": "whats all this is about :)",
+        "url": "/pages/intro/intro.md",
+        "href": "/pages/intro/intro.html",
+        "id": "intro"
       }
   ]
